@@ -28,17 +28,21 @@ Prerequisites
 ##Connect to EC2 Instance 
 -Use SSH to connect :
   ssh -i "key.pem" user@<EC2_Public_IP>
+---
 
 ##Install Docker
 -sudo apt update
 -sudo apt install -y docker.io
+---
 
 ##Enable Docker 
 -sudo systemctl enable docker
 -sudo systemctl start docker
+---
 
 ##Install Docker Compose
 -sudo apt install -y docker-compose
+---
 
 ##Deploy Elasticsearch
 
@@ -93,9 +97,11 @@ services:
       - "3002:3002"
     networks:
       - elastic
-
+---
 ##Launch it
 -docker-compose up -d
+
+---
 
 ##Add Kibana For Data Visualization to yml file
 -can add to bottom of yml file
