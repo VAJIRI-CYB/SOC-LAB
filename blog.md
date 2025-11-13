@@ -83,7 +83,7 @@ services:
     environment:
       - JAVA_OPTS=-Xms512m -Xmx512m
       - ENT_SEARCH_DEFAULT_PASSWORD=Elastic@123
-      - elasticsearch.username= (**your ussename**)
+      - elasticsearch.username= (**your username**)
       - elasticsearch.password= (**your password**)
       - elasticsearch.host=http://elasticsearch:9200
       - allow_es_settings_modification=true
@@ -111,7 +111,7 @@ services:
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
       - ENTERPRISESEARCH_HOST=http://ent-search:3002
-      - ELASTICSEARCH_USERNAME=(**your ussename**)
+      - ELASTICSEARCH_USERNAME=(**your username**)
       - ELASTICSEARCH_PASSWORD=(**your password**)
       - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=X5rtEXBA3Js1sNMu7VpY4QKIEBpjwzkb231
     networks:
