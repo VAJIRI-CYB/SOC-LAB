@@ -41,6 +41,7 @@ Prerequisites
 
 ##Enable Docker 
 
+command
 -sudo systemctl enable docker
 -sudo systemctl start docker
 
