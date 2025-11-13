@@ -27,29 +27,29 @@ Prerequisites
 
 ##Connect to EC2 Instance 
 
--Use SSH to connect :
+- Use SSH to connect :
   ssh -i "key.pem" user@<EC2_Public_IP>
   
 ---
 
 ##Install Docker
 
--sudo apt update
--sudo apt install -y docker.io
+- sudo apt update
+- sudo apt install -y docker.io
 
 ---
 
 ##Enable Docker 
 
 command
--sudo systemctl enable docker
--sudo systemctl start docker
+- sudo systemctl enable docker
+- sudo systemctl start docker
 
 ---
 
 ##Install Docker Compose
 
--sudo apt install -y docker-compose
+- sudo apt install -y docker-compose
 
 ---
 
@@ -110,12 +110,12 @@ services:
       
 ---
 ##Launch it
--docker-compose up -d
+- docker-compose up -d
 
 ---
 
 ##Add Kibana For Data Visualization to yml file
--can add to bottom of yml file
+- can add to bottom of yml file
 
  kibana:
     image: docker.elastic.co/kibana/kibana:7.15.0
