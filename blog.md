@@ -139,6 +139,9 @@ services:
 Access Kibana at 
 'http://<EC2_Public_IP>:5601'
 
+<img width="3334" height="2020" alt="image" src="https://github.com/user-attachments/assets/c7580759-ee15-43ac-99df-7e8b1f05f6fe" />
+
+
 ---
 CONCLUSION
 
