@@ -19,9 +19,13 @@ This write up walks you through deploying Elasticsearch on an **Amazon EC2** ins
 ---
 
 Prerequisites
-- Amazon EC2 instance 
+- Amazon EC2 instance (Ubuntu 22.04 recommended)
 - SSH access to instance
 - Ports **9200** (HTTP API) and **9300** (Internal communication) open in instance
+- At least
+      -2 vCPU's
+      -4 GB RAM
+      -10 GB + disk space
 
 ---
 
@@ -34,6 +38,7 @@ Prerequisites
 
 ##Install Docker
 
+command
 - sudo apt update
 - sudo apt install -y docker.io
 
@@ -49,13 +54,18 @@ command
 
 ##Install Docker Compose
 
+command
 - sudo apt install -y docker-compose
 
 ---
 
 ##Deploy Elasticsearch
 
-create a file called **'docker-compose.yml'**:
+Make a directory 
+
+mkdir elasticsearch
+
+create a file within the directory called **'docker-compose.yml'** : 
 
 version: "2"
 
@@ -136,6 +146,9 @@ services:
 
 ---
 
+Access Elasticsearch at
+'http://<EC2_Public_IP>:9200'
+
 Access Kibana at 
 'http://<EC2_Public_IP>:5601'
 
@@ -145,4 +158,4 @@ Access Kibana at
 ---
 CONCLUSION
 
-
+This containerized setup offers a clean , reproducible and scalable foundation for local envioronments and the stack can be expanded for a full ELK pipeline.
