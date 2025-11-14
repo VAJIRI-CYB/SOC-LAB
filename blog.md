@@ -10,7 +10,7 @@
 
 Elasticsearch is a powerful open-source search and analytics engine used in data indexing, observability, and log management systems. Running it in a containerized environment makes deployment faster, cleaner and more reproducible.
 Docker and docker compose simplify deployment and management of applications
-Elastic search stores the processed logs and indexes them to allow quick search , kibana allows you create visual dashboards of the logs. Using the Siem app in kibana to monitor logs.
+Elasticsearch stores the processed logs and indexes them to allow quick search , Kibana allows you create visual dashboards of the logs. Using the Siem app in kibana to monitor logs.
 
 ---
 
