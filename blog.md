@@ -76,7 +76,7 @@ services:
       - ES_JAVA_OPTS=-Xms512m -Xmx512m
       - xpack.security.enabled=true
       - xpack.security.authc.api_key.enabled=true
-      - ELASTIC_PASSWORD=Elastic@123
+      - ELASTIC_PASSWORD=xyz
     ulimits:
       memlock:
         soft: -1
@@ -95,7 +95,7 @@ services:
       - elasticsearch
     environment:
       - JAVA_OPTS=-Xms512m -Xmx512m
-      - ENT_SEARCH_DEFAULT_PASSWORD=Elastic@123
+      - ENT_SEARCH_DEFAULT_PASSWORD= xyz
       - elasticsearch.username= (**your username**)
       - elasticsearch.password= (**your password**)
       - elasticsearch.host=http://elasticsearch:9200
