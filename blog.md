@@ -119,12 +119,12 @@ services:
 
       
 ---
-##Launch it
+## Launch it
 - docker-compose up -d
 
 ---
 
-##Add Kibana For Data Visualization to yml file
+## Add Kibana For Data Visualization to yml file
 - can add to bottom of yml file
 
   kibana:
