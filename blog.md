@@ -36,7 +36,7 @@ At least
   
 ---
 
-##Install Docker
+## Install Docker
 
 command
 - sudo apt update
@@ -44,7 +44,7 @@ command
 
 ---
 
-##Enable Docker 
+## Enable Docker 
 
 command
 - sudo systemctl enable docker
@@ -52,14 +52,14 @@ command
 
 ---
 
-##Install Docker Compose
+## Install Docker Compose
 
 command
 - sudo apt install -y docker-compose
 
 ---
 
-##Deploy Elasticsearch
+## Deploy Elasticsearch
 
 Make a directory 
 
@@ -156,6 +156,7 @@ Access Kibana at
 
 
 ---
-CONCLUSION
+
+## CONCLUSION
 
 This containerized setup offers a clean , reproducible and scalable foundation for local envioronments and the stack can be expanded for a full ELK pipeline.
