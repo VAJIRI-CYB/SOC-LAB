@@ -127,8 +127,8 @@ services:
 ##Add Kibana For Data Visualization to yml file
 - can add to bottom of yml file
 
- kibana:
-    image: docker.elastic.co/kibana/kibana:7.15.0
+  kibana:
+     image: docker.elastic.co/kibana/kibana:7.15.0
     restart: unless-stopped
     depends_on:
       - elasticsearch
