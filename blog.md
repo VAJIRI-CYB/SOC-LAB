@@ -63,9 +63,9 @@ command
 
 Make a directory 
 
-mkdir elasticsearch
+- mkdir elasticsearch
 
-create a file within the directory called **'docker-compose.yml'** : 
+- create a file within the directory called **'docker-compose.yml'**  and paste below content : 
 
 version: "2"
 
