@@ -165,4 +165,4 @@ Access Kibana at
 
 ## CONCLUSION
 
-This containerized setup offers a clean , reproducible and scalable foundation for local envioronments and the stack can be expanded for a full ELK pipeline.
+This containerized setup offers a clean , reproducible and scalable foundation for local environments and the stack can be expanded for a full ELK pipeline.
