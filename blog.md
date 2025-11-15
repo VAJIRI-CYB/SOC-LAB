@@ -21,10 +21,11 @@ Prerequisites
 - Amazon EC2 instance (Ubuntu 22.04 recommended)
 - SSH access to instance
 - Ports **9200** (HTTP API) and **9300** (Internal communication) open in instance
-- At least
-      -2 vCPU's
-      -4 GB RAM
-      -10 GB + disk space
+
+At least
+-2 vCPU's
+-4 GB RAM
+-10 GB + disk space
 
 ---
 
