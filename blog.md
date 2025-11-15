@@ -17,7 +17,7 @@ This write up walks you through deploying Elasticsearch on an **Amazon EC2** ins
 
 ---
 
-Prerequisites
+## Prerequisites
 - Amazon EC2 instance (Ubuntu 22.04 recommended)
 - SSH access to instance
 - Ports **9200** (HTTP API) and **9300** (Internal communication) open in instance
