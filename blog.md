@@ -23,9 +23,9 @@ Prerequisites
 - Ports **9200** (HTTP API) and **9300** (Internal communication) open in instance
 
 At least
--2 vCPU's
--4 GB RAM
--10 GB + disk space
+- 2 vCPU's
+- 4 GB RAM
+- 10 GB + disk space
 
 ---
 
