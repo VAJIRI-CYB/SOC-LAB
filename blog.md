@@ -143,6 +143,12 @@ services:
       - XPACK_ENCRYPTEDSAVEDOBJECTS_ENCRYPTIONKEY=X5rtEXBA3Js1sNMu7VpY4QKIEBpjwzkb231
     networks:
       - elastic
+---
+
+NOTE : The command sudo docker ps will check for any process running named docker 
+
+<img width="1637" height="155" alt="Screenshot 2025-11-14 at 10 12 28 PM" src="https://github.com/user-attachments/assets/bccf246b-e0b4-416b-9747-5ec6a92cf457" />
+
 
 ---
 
