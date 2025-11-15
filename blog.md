@@ -29,7 +29,7 @@ At least
 
 ---
 
-##Connect to EC2 Instance 
+## Connect to EC2 Instance 
 
 - Use SSH to connect :
   ssh -i "key.pem" user@<EC2_Public_IP>
